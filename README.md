@@ -47,10 +47,10 @@ Install postgres and configure.
 			# sudo -i -u postgres
 			# psql
 			postgres=# create user data with password 'Temp1234';
-			postgres=# create database datacraft owner nitin;
+			postgres=# create database datacraft owner data;
 			postgres=# \l (show all database)
 			postgres=# \c datacraft (use database)
-			postgres=# alter user nitin superuser createrole createdb replication;
+			postgres=# alter user data superuser createrole createdb replication;
 
 After configure Databse create .env file inside DataCraft (Its django project folder
         its contains with settings.py,wsgi.py or etc) folder
