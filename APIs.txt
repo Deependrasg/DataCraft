@@ -1,0 +1,28 @@
+APIS list
+
+1)Get all results that added in elastic-search index (Data Catalog Api)
+  
+  Method:GET
+  Url   :http://ec2-18-217-95-88.us-east-2.compute.amazonaws.com/data-catalog
+
+
+2)Particular DataCatalog service API
+  
+  Method:GET (Get data according to Perticulas DataCatalog ID)
+  URL   :http://ec2-18-217-95-88.us-east-2.compute.amazonaws.com/data-catalog/15
+
+
+
+5)Get Sub category POSt pass [department]
+   http://127.0.0.1:8000/api/sub-department/
+
+4)Invetry data Method Post pass [id]
+   http://127.0.0.1:8000/api/inventry-code/
+
+3) Save Publiser data Method Post
+   http://127.0.0.1:8000/api/publish/
+
+
+
+   
+
